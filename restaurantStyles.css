@@ -1,0 +1,111 @@
+header, footer
+{ background-color: darkseagreen;
+color: purple;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0px; }
+
+header
+{ height: 125px;}
+
+footer
+{ height: 80px;
+ 	padding-top: 10px; }
+
+footer p
+{ text-align: center;
+	margin:auto; }
+
+@font-face
+{ font-family: 'Conv_PetitFormalScript';
+	src: url('fonts/PetitFormalScript.eot');
+	src: local('/PetitFormalScript/fonts'), url('fonts/PetitFormalScript.woff') format('woff'), url('fonts/PetitFormalScript.ttf') format('truetype'), url('fonts/PetitFormalScript.svg') format('svg');
+	font-weight: normal;
+	font-style: normal; }
+
+div
+{ text-align: left; }
+
+h1.restname
+{ font-size: 3.0em;
+	color: purple;
+	font-family: 'Conv_PetitFormalScript';
+	font-weight: bold;
+	margin: auto;
+	text-align: center; }
+
+#noscript
+{ font-size; 4;
+  font-weight: bold }
+
+#descript
+{ font-size: 1.2em;
+  font-weight: none;
+	color: black; }
+
+#restdescript
+{ font-size: 1.1em;
+	color: purple; }
+
+#homebody
+{ background-color: palegoldenrod;
+color: black;
+font-family: Arial, Helvetica, sans-serif; }
+
+#menubody
+{ background-color: coral;
+text-align: left;
+color: black;
+font-family: Arial, Helvetica, sans-serif; }
+
+#contactbody
+{ background-color: azure;
+color: darkgreen;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif; }
+
+nav
+{ background-color: none;
+ 	text-align:left;
+ 	padding: 4px; }
+
+nav a
+{ background-color: none;
+  color: darkolivegreen;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.adjustnav a:link
+{ color: darkolivegreen; }
+.adjustnav a:visited
+{ color: slategray; }
+.adjustnav a:hover
+{ font-weight: bold; }
+.adjustnav a:active
+{ text-decoration: none; }
+
+.adjustnav a
+{ background-color: lightgoldenrodyellow ; }
+
+.jumbotron-fluid
+{ background-color: coral; }
+
+.jumbotron-fluid h1
+{ font-size: 3.7em;
+	color: black;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif; }
+
+.define
+{ text-align: left;
+	color: white; }
+
+.headercolor
+{background-color: darkseagreen; }
+
+.carousel-inner
+{ background-color: none;
+	color: coral;
+ 	font-weight: bold; }
+
+.carousel-inner p
+{ font-size: 1.4em; }
