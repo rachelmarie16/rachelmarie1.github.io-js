@@ -16,7 +16,7 @@ footer p
 	margin:auto; }
 
 @font-face
-{ font-family: 'Petit Formal Script';
+{ font-family: 'Petit Formal Script' , cursive ;
 	src: url('fonts/PetitFormalScript.eot');
 	src: local('/PetitFormalScript/fonts'), url('fonts/PetitFormalScript.woff') format('woff'), url('fonts/PetitFormalScript.ttf') format('truetype'), url('fonts/PetitFormalScript.svg') format('svg');
 	font-weight: normal;
